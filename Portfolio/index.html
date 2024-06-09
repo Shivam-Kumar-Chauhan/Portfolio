@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+    <link rel="stylesheet" href="style.css" />
+    <title>Shivam Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#">Coder<span>.</span></a>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li class="link"><a href="#home">Home</a></li>
+        <li class="link"><a href="#about">About</a></li>
+        <li class="link"><a href="#resume">Resume</a></li>
+        <li class="link"><a href="#project">Project</a></li>
+        <li class="link"><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <header class="header" id="home">
+      <div class="section__container header__container">
+        <h4>Hello,</h4>
+        <h4> I'm Shivam Kumar</h4>
+        <h2>Welcome To My Portfolio</h2>
+        <h1>A Software Engineer</h1>
+        <p class="section__description">
+          With a strong foundation in computer science.
+          My Portfolio is a visual journey where
+          innovation meets aesthetics. Welcome to a space where every pixel
+          tells a story and each interaction is a work of art.
+          Explore my education and projects to learn more about my work.
+        </p>
+        <div class="header__btns">
+          <a href="assets/CV.pdf" download="CV.pdf">
+          <button class="btn btn__primary" id="download-cv">Download CV</button>
+          </a>
+        </div>
+        <div class="home__socials">
+            <a href="https://github.com/Shivam-Kumar-Chauhan"><i class="ri-github-fill"></i></a>
+            <a href="https://x.com/ShivamKuma26490"><i class="ri-twitter-fill"></i></a>
+            <a href="https://www.linkedin.com/in/shivamkumar--/"><i class="ri-linkedin-fill"></i></a>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container about__container" id="about">
+      <h2 class="section__header">Let Me Introduce Myself </h2>
+        <p class="section__description">
+          Hi, I'm Shivam, a passionate software engineer on a mission
+          to elevate digital experiences. With a keen eye for detail and a flair
+          for creativity,
+          <span>with a knack for creating elegant solutions to complex problems.
+            I bring ideas to life in the digital realm.</span> My work is a
+          fusion of user-centric design and aesthetic innovation, creating
+          engaging and memorable interactions.
+        </p>
+        <div class="about__progress">
+          <h5>HTML</h5>
+          <div class="container">
+            <div class="skill html">95%</div>
+          </div>
+          <h5>CSS</h5>
+          <div class="container">
+            <div class="skill css">50%</div>
+          </div>
+          <h5>JAVASCRIPT</h5>
+          <div class="container">
+            <div class="skill javascript">25%</div>
+          </div>
+          <h5>C</h5>
+          <div class="container">
+            <div class="skill c">60%</div>
+          </div>
+          <h5>JAVA</h5>
+          <div class="container">
+            <div class="skill java">30%</div>
+          </div>
+          <h5>DSA</h5>
+          <div class="container">
+            <div class="skill dsa">15%</div>
+          </div>
+          <h5>GITHUB</h5>
+          <div class="container">
+            <div class="skill github">20%</div>
+          </div>
+          <h5>VIDEO EDITING</h5>
+          <div class="container">
+            <div class="skill videoediting">65%</div>
+          </div>
+        </div>
+    </section>
+
+    <section class="section__container resume__container" id="resume">
+      <h2 class="section__header">My Qualifications</h2>
+      <p class="section__description">
+        Combined with a passion for continuous learning, my qualifications
+        extend beyond academia, encompassing hands-on projects and a commitment
+        to staying at the forefront of industry trends.
+      </p>
+      <div class="resume__tabs">
+        <div class="resume__tablist">
+        </div>
+        <div class="resume__tabpanel">
+          <div class="panel__grid active" data-panel="1">
+            <div class="panel__card">
+              <span><i class="ri-graduation-cap-fill"></i></span>
+              <h4>Bachelor's Degree in Computer Applications</h4>
+              <p class="section__description">2019 - 2023</p>
+              <p class="section__description">
+                Armed with a Bachelor's degree in Computer Applications, 
+                From Babasaheb Bhimrao Ambedkar Bihar University with 75% marks.
+              </p>
+            </div>
+            <div class="panel__card">
+              <span><i class="ri-graduation-cap-fill"></i></span>
+              <h4>Master's Degree in Computer Applications</h4>
+              <p class="section__description">2023 - Present</p>
+              <p class="section__description">
+                Pursuing a Master's degree in Computer Applications,
+                From G L Bajaj Institute of Technology and Management.
+              </p>
+            </div>
+            <div class="panel__card">
+              <span><i class="ri-graduation-cap-fill"></i></span>
+              <h4>Professional Certification From Edunet Foundation</h4>
+              <p class="section__description">
+                IR4.0 Foundation
+              </p>
+              <p class="section__description">
+                Completed IR4.0 foundation certification under
+                TechSaksham, a joint CSR initiative between Microsoft and
+                SAP, implemented by Edunet Foundation.
+              </p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container project__container" id="project">
+      <h2 class="section__header">First Project</h2>
+      <div class="project__grid">
+        <div class="project__card">
+          <img src="assets/weather-app.png" alt="project" />
+          <div class="project__content">
+            <h4>Weather App</h4>
+            <p class="section__description">
+              This Weather App made using HTML, CSS and OpenWeatherMap API in JavaScript.
+              The app tells the current temperature and some additional information like Humidity & Wind Speed.
+            </p>
+            <div>
+              <a href="https://shivam-kumar-chauhan.github.io/WeatherApp/">Click For Preview</a>
+              <a href="https://github.com/Shivam-Kumar-Chauhan/WeatherApp">Click For GitHub Repo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" id="contact">
+      <div class="section__container footer__container">
+        <h2 class="section__header">For Any Queries</h2>
+        <p class="section__description">
+          Connect With Me
+        </p>
+        <div class="footer__grid">
+          <div class="footer__content">
+            <h4>Shivam Kumar</h4>
+            <p>
+              Let's continue the conversation and embark on new creative
+              journeys together.
+            </p>
+            <p>
+              Explore more of my work, connect with me on social media, or drop
+              a message.
+            </p>
+            <p>
+              Thank you for visiting!
+            </p>
+            <div class="footer__socials">
+              <a href="https://github.com/Shivam-Kumar-Chauhan"><i class="ri-github-fill"></i></a>
+              <a href="https://x.com/ShivamKuma26490"><i class="ri-twitter-fill"></i></a>
+              <a href="https://www.linkedin.com/in/shivamkumar--/"><i class="ri-linkedin-fill"></i></a>
+            </div>
+          </div>
+          <div class="footer__form">
+            <form action="/example.html" method="post">
+              <div class="input__row">
+                <input type="text" placeholder="Your Name" />
+                <input type="text" placeholder="Your Email" />
+              </div>
+              <textarea placeholder="Your Message"></textarea>
+              <button class="btn btn__primary">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © Shivam Kumar. All Rights Reserved.
+      </div>
+    </footer>
+  </body>
+</html>
